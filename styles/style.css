@@ -98,9 +98,8 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  top: 100px;
-  bottom: 100px;
   width: 80%;
+  margin: 100px auto;
 }
 
 .two-columns__brief {
@@ -110,11 +109,13 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin-top: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  margin-top: 0%;
 }
 
 .two-columns__paragraph {
@@ -124,12 +125,74 @@
   font-size: 24px;
   font-weight: normal;
   color: #000;
+  margin: 0;
+}
+
+.two-columns__paragraph_accent {
+  margin: 30px 0;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+  color: #000;
+}
+
+/*карточки 1-8 */
+.digits {
+  border: 5px solid;
+}
+
+.section-title {
+  text-align: center;
+  width: 60%;
+  margin: 100px auto 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  color: #000;
+  border: 5px solid;
+}
+
+.section-subtitle {
+  text-align: center;
+  margin: 20px auto 0;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000;
+  border: 5px solid;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px auto 100px;
+  border: 5px solid;
+}
+
+.table__cell {
+  width: 250px;
+  border: 5px solid;
+}
+
+.table__heading {
+  width: 250px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.table__text {
+  width: 250px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
   color: #000;
 }
 

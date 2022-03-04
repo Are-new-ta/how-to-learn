@@ -57,6 +57,8 @@
   left: 64px;
   bottom: 30px;
   z-index: 2;
+  margin: 0;
+  padding: 0;
 }
 
 .header__link {
@@ -98,7 +100,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 100px auto;
+  margin: 100px auto 0;
 }
 
 .two-columns__brief {
@@ -205,6 +207,8 @@
 /* Блок Фейман */
 
 .feynman {
+  box-sizing: border-box;
+  width: 100%;
   padding-top: 100px;
   position: relative;
   min-height: 890px;
@@ -232,6 +236,7 @@
   font-weight: normal;
   color: #000;
   z-index: 2;
+  margin: 0 auto 0;
 }
 
 .feynman__link {
@@ -265,7 +270,7 @@
   overflow: hidden;
   padding: 0;
   margin: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .section-title_theme_dark {
@@ -305,7 +310,7 @@
   width: 200px;
   margin-top: 80px;
   color: white;
-  z-index: 5;
+  z-index: 2;
 }
 
 .table__heading_theme_dark {
@@ -314,7 +319,7 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  z-index: 5;
+  z-index: 2;
 }
 
 .table__text_theme_dark {
@@ -323,7 +328,7 @@
   font-weight: normal;
   color: white;
   margin-bottom: 0;
-  z-index: 5;
+  z-index: 2;
 }
 
 .kaufman__triangle {
@@ -336,7 +341,7 @@
   right: -210px;
   width: 877px;
   height: 877px;
-  z-index: 1;
+  z-index: -2;
 }
 
 /* Блок Footer */

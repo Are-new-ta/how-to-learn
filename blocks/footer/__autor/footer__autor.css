@@ -1,0 +1,12 @@
+.footer__autor {
+  display: flex;
+  position: relative;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f2f2f2;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  margin-bottom: 18px;
+}

@@ -77,6 +77,9 @@
 @import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(./blocks/resources/resources.css);
+@import url(./blocks/resources/__logo/resources__logo.css);
+@import url(./blocks/resources/__logo-zone/resources__logo-zone.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__autor/footer__autor.css);
 @import url(./blocks/footer/__column-heading/footer__column-heading.css);
@@ -86,6 +89,5 @@
 @import url(./blocks/footer/__column_content/_info/footer__column_content_info.css);
 @import url(./blocks/footer/__column_content/_social/footer__column_content_social.css);
 @import url(./blocks/footer/__columns/footer__columns.css);
-
 @import url(./blocks/logo/_place/logo_place_footer.css);
 @import url(./blocks/footer/__social-icon/footer__social-icon.css);

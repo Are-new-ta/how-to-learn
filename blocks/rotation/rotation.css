@@ -1,5 +1,4 @@
 .rotation {
-  overflow: hidden;
   animation: rotation 20s linear infinite;
 }
 
@@ -10,4 +9,4 @@
   to {
     transform: rotate(360deg);
   }
-  }
+}

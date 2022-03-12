@@ -5,3 +5,9 @@
   width: 270px;
   z-index: 3;
 }
+
+.resources__logo:hover {
+  opacity: 0.5;
+  transition: color 5s linear 0.5s;
+  z-index: 2;
+}
